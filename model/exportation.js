@@ -14,8 +14,7 @@ const exportationSchema =  new Schema({
     weight: {
         type: Number,
         required: [true, 'The weight is required'],
-        min: [0, 'The weight must be a positive number']
     }
 })
 
-module.exports = model("Exportation", exportationSchema, "exportation") // crear la coleccion  si no existe y 
+module.exports = model("Exportation", exportationSchema, "exportation") 
